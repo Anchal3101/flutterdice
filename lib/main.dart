@@ -31,14 +31,14 @@ class _DiceState extends State<Dice> {
       },
       child: Image.asset(
         'images/dice$DiceNumber.png',
-        width: 300,
+        width: 200,
       ),
     );
     return Scaffold(
       appBar: AppBar(
         title: const Text("Dice"),
         centerTitle: true,
-        backgroundColor: Colors.blue.shade300,
+        backgroundColor: Colors.blue.shade500,
       ),
       backgroundColor: Colors.blueAccent.shade100,
       body: Center(
